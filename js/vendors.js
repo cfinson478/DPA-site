@@ -2,7 +2,6 @@ var row = document.getElementById("vendor-row");
 
 function acceptVendors(vendors) {
     for (var i = 0; i < vendors.length; i++) {
-        console.log(vendors[i]);
         var vendor = `
             <div class="col-md-4 pb-1 pb-md-0 ">
                 <div class="card">
